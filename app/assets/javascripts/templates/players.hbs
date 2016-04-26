@@ -1,8 +1,14 @@
 <table class="table table-striped table-condensed">
 
+<tr>
+  <th>Name </th>
+  <th>Email </th>
+  <th>Action</th>
+  </tr>
   {{#each this}}
   <tr>
     <td class="player">{{name}}</td>
+    <td class="player">{{email}}</td>
     <td>
       <button class="btn btn-default btn_hide" >{{I18n "hide"}}</button>
     </td>
