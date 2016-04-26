@@ -1,28 +1,31 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is part of the assignment task used for recruiting of new members for our dev-team.
+If you are interested or have been invited to work with us, please read on and try to answer the questions below.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The project integrates some of the basic structures used by fubalytics.
+It basically implements only a single dummy view (player/index), which is designed to demonstrate the usage
+of backbone-js, handlebars and gon.
+In order to set it up, you will probably like to setup rvm first.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Questions
+
+=== 1. Handlebars
+
+* Where are the handlebar templates stored?
+* How are they used?
+* Why isnt it possible to inject rails-variables such as <%= @player.name %> ?
+
+=== 2. I18n
+
+* How is I18n used?
+* How is it integrated into the handlebars templates?
+
+
+=== 3. Backbone-js
+
+* Where are the backbone-js views located?
+* How is the class definition separated from the initialization?
+* How does the $(".players.index").ready(...) work?
+
