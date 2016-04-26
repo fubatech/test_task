@@ -31,5 +31,6 @@ In order to set it up, you will probably like to setup rvm first.
 
 === 4. Add a logo 
 
-Please extend the players table by the logo. Add a button to the right of "hide me" and call it "show". When the user clicks on the logo, display the logo inside a new "td" element of the "tr" table row.
+Please extend the players table by the logo. Add a button to the right of "hide me" and call it "show". When the user clicks on the "show" button, display the logo inside a new "td" element of the "tr" table row.
+
 
