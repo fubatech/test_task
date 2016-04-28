@@ -25,8 +25,6 @@ $(".players.index").ready(function(){
     /*
     Input params:
     * players: the list of player objects
-    * tags_bundle: Array of all tags in the recording over all videos.
-    * play_video_by_video_id_and_time: a function callback
     **/
     initialize: function(inp) {
 		console.log("Started RecordingTagControl initialize with input: %o", inp);
