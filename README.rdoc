@@ -35,5 +35,9 @@ Please extend the players table by the logo. Add a button to the right of "hide 
 
 === Submission
 
-If you would like to submit your changes, please notify us under support<at>fubalytics.de
+If you would like to submit your changes, please 
+* fork this repository, 
+* insert the answers to this read me file,
+* apply the changes to the code as mentioned by the 4.th task and
+* notify us under support<at>fubalytics.de
 
